@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript"
+            src="http://cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="application/javascript">
+    console.log('test')
+    var socket = io.connect('http://127.0.0.1:5000');
+    socket.on('connect', function () {
+        console.log('client connected to server')
+        }
+    );
+    socket.on('backendSend',(s)=>{console.log('backend send ' + s)});
+
+</script>
+</body>
+</html>
