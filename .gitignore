@@ -1,7 +1,8 @@
-__pycache__
+__pycache__/
 migrations/
 *.py[cod]
-dist
-build
-.vscode
-.idea
+dist/
+build/
+.vscode/
+.idea/
+readme_local.txt
