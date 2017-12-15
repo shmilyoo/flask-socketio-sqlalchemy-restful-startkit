@@ -3,3 +3,5 @@ migrations/
 *.py[cod]
 dist
 build
+.vscode
+.idea
